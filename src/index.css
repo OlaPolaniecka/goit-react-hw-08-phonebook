@@ -1,0 +1,32 @@
+body {
+  margin: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  color: rgb(65, 14, 112);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.btn {
+  margin-left: 30px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(92, 27, 153);
+  cursor: pointer;
+  color: #fff;
+}
