@@ -2,9 +2,9 @@ import ContactForm from 'components/ContactForm/ContactForm';
 import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, deleteContact } from './redux/operations';
+import { addContact, deleteContact } from './redux/contacts/operations';
 
-import { selectVisibleContacts } from './redux/contactsSlice';
+import { selectVisibleContacts } from './redux/contacts/contactsSlice';
 
 const App = () => {
   const dispatch = useDispatch();
