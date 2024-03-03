@@ -1,0 +1,32 @@
+.form {
+  margin-top: 30px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(94, 26, 99);
+}
+
+.button:hover {
+  background-color: rgb(60, 19, 98);
+  color: white;
+}
+
+.input {
+  margin-top: 6px;
+  width: 320px;
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid rgb(157, 112, 160);
+}

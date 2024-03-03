@@ -23,18 +23,13 @@ const App = () => {
 
   return (
     <>
-      {isRefreshing && <div>Fetching user data</div>}
+      {isRefreshing && <div>Refreshing user...</div>}
 
       {!isRefreshing && (
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Layout />}>
-              <Route
-                index
-                element={
-                  <PrivateRoute redirectTo="/login" component={<Home />} />
-                }
-              />
+              <Route index element={<Home />} />
               <Route
                 path="/login"
                 element={

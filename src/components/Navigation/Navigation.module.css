@@ -1,0 +1,10 @@
+.home {
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(72, 15, 126);
+}
+
+.home:hover {
+  text-decoration: underline;
+}
