@@ -1,0 +1,17 @@
+.user_menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user {
+  font-size: 35px;
+  font-weight: 700;
+
+  color: rgb(15, 4, 26);
+}
+
+.btn_logOut {
+  font-size: 20px;
+  cursor: pointer;
+}
